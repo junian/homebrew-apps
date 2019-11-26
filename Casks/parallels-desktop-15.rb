@@ -1,4 +1,4 @@
-cask 'parallels' do
+cask 'parallels-desktop-15' do
   version '15.1.1-47117'
   sha256 'e80906e2f71acd6e1097e9a5a8b67bca34e67e99dcd2bb1c8444a27fdef640b0'
 
