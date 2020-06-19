@@ -1,4 +1,4 @@
-cask 'crossover' do
+cask 'crossover-19' do
   version '19.0.2'
   sha256 '7f6ed1183ebc5536f3fd0e52b76368265140e36936c62e2c525d8044f36961ee'
 
