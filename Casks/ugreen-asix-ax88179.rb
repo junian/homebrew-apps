@@ -4,6 +4,7 @@ cask "ugreen-asix-ax88179" do
   
     url "https://www.asix.com.tw/en/support/download/file/119"
     name "AX88179"
+    desc "USB 3.0 to 10/100/1000M Gigabit Ethernet Controller for ASIX Electronics devices. Compatible with UGreen USB 3.0 to Ethernet adapter."
     homepage "https://www.asix.com.tw/en/support/download"
   
     container nested: "AX88179_178A_macOS_10.9_to_10.15_Driver_Installer_v#{version}/AX88179_178A_v#{version}.dmg"
