@@ -17,17 +17,19 @@ cask "ugreen-asix-ax88179" do
 
   postflight do
     system_command "/sbin/kextload",
-                    args: ["-b", "com.asix.driver.ax88179-178a"],
-                    sudo: true
+                   args: [
+                     "-b", "com.asix.driver.ax88179-178a"
+                   ],
+                   sudo: true
   end
 
   uninstall_preflight do
     system_command "/usr/sbin/installer",
-                    args: [
-                      "-pkg", "#{staged_path}/AX88179_178A_Uninstall_v1.8.0.pkg",
-                      "-target", "/"
-                    ],
-                    sudo: true
+                   args: [
+                     "-pkg", "#{staged_path}/AX88179_178A_Uninstall_v1.8.0.pkg",
+                     "-target", "/"
+                   ],
+                   sudo: true
   end
 
   uninstall kext:    "com.asix.driver.ax88179-178a",
