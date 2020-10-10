@@ -1,4 +1,4 @@
-cask "asix-ax88179" do
+cask "ugreen-asix-ax88179" do
   version "2.18.0"
   sha256 "a646f75aed3d45435409505b9c3ae90364862d4572ca74e26c282bb1510c7105"
 
