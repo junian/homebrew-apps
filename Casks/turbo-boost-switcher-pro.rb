@@ -1,7 +1,8 @@
 cask "turbo-boost-switcher-pro" do
   version "2.10.2"
-  sha256 "32ca4284914a6a69cd7dac0d8641a270323ba073a21be0ced044bb748691a9e4"
-
+  # sha256 "32ca4284914a6a69cd7dac0d8641a270323ba073a21be0ced044bb748691a9e4"
+  sha256 :no_check
+  
   url "https://files.gumroad.com/attachments/2401211130126/#{ENV['HOMEBREW_GUMROADHASH']}/original/Turbo_Boost_Switcher_Pro_v2.10.2.dmg?response-content-disposition=attachment&verify=#{ENV['HOMEBREW_GUMROADVERIFY']}"
   appcast "https://www.rugarciap.com/turbo-boost-switcher-for-os-x-blog/"
   name "Turbo Boost Switcher Pro"
