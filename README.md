@@ -3,7 +3,7 @@
 How to use.
 
 ```bash
-brew tap junian/homebrew-app
+brew tap junian/homebrew-apps
 brew install <formula>
 ```
 
