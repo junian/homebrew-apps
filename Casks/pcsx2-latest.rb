@@ -1,4 +1,4 @@
-cask "tellowkrinkle-pcsx2" do
+cask "pcsx2-latest" do
   version "1.7.0,20220410"
   sha256 "d88d37df43c9a578a15ece761062ec4a72b0c1e55e7dd8daaace74acf49a2db9"
 
