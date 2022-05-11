@@ -7,5 +7,5 @@ cask "pcsx2-latest" do
   desc "Open-Source Playstation 2 Emulator Supporting Over 98% Of The Original PS2 Library"
   homepage "https://pcsx2.net/"
 
-  app "PCSX2.app"
+  app "PCSX2*.app", target: "PCSX2.app"
 end
