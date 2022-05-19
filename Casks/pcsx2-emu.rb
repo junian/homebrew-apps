@@ -1,6 +1,6 @@
-cask "pcsx2-latest" do
-  version "1.7.2731,022a9cc"
-  sha256 "333910d0f8746eaee4ec8583264fa0b046074e9fb72eba2a49006b6e63baa6ea"
+cask "pcsx2-emu" do
+  version "1.7.2755,7c9493c"
+  sha256 "d3b6461246d360eff2fc1bb7f1ad70c8b151f3cd20b88e2b8d6a141cf60b0888"
 
   url "https://github.com/PCSX2/pcsx2/releases/download/v#{version.csv.first}/pcsx2-v#{version.csv.first}-macOS.tar.gz"
   name "PCSX2"
