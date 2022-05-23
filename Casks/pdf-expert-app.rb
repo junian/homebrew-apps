@@ -8,8 +8,8 @@ cask "pdf-expert-app" do
   homepage "https://pdfexpert.com/"
 
   auto_updates true
-  conflicts_with cask: "pdf-expert",
-                 cask: "homebrew/cask-versions/pdf-expert-beta"
+  conflicts_with cask: "homebrew/cask-versions/pdf-expert-beta",
+                       "pdf-expert"
   depends_on macos: ">= :high_sierra"
 
   app "PDF Expert.app"
