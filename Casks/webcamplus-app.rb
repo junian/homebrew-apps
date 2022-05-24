@@ -1,4 +1,4 @@
-cask "webcamplus-latest" do
+cask "webcamplus-app" do
   version "1.2.0"
   sha256 "50621515ff773b88930ffb2cfcd1511cf48cbf151672bd05bda37729b65ea509"
 
