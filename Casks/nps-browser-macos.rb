@@ -1,4 +1,4 @@
-cask "nps-browser-latest" do
+cask "nps-browser-macos" do
   version "1.4.6"
   sha256 "d4f12f178e1147070fac36a288e53a53a9ae47e89530041e54e559b20efda620"
 
