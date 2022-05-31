@@ -1,4 +1,4 @@
-cask "pd-runner-latest" do
+cask "pd-runner-app" do
   version "0.3.6"
   sha256 "df9f9792034c689f881d45e0f0bd6c802b57a879779747302e59cbd37bfee673"
 
