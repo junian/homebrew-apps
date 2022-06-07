@@ -2,7 +2,7 @@ cask "pd-runner-app" do
   version "0.3.6"
   sha256 "df9f9792034c689f881d45e0f0bd6c802b57a879779747302e59cbd37bfee673"
 
-  url "https://github.com/lihaoyun6/PD-Runner/releases/download/#{version}/PD-Runner_v#{version}_Universal2.dmg"
+  url "http://192.168.1.4:8733/Apps/PD-Runner_v#{version}_Universal2.dmg"
   name "PD Runner"
   desc "VM launcher for Parallels Desktop"
   homepage "https://github.com/lihaoyun6/PD-Runner/"
