@@ -20,7 +20,7 @@ cask "visual-studio-mac-preview" do
 
   installer manual: "Install Visual Studio for Mac Preview.app"
 
-  uninstall delete: "/Applications/Visual Studio.app"
+  uninstall delete: "/Applications/Visual Studio (Preview).app"
 
 =begin
   zap trash: [
