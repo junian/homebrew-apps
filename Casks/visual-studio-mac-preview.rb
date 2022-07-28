@@ -1,16 +1,16 @@
 cask "visual-studio-mac-preview" do
-  version "17.0.4.5"
-  sha256 "274108ad8c26a82ecc14bd02bfaa4266a0a0cf82373cd3486c2789a317bbd40d"
+  version "17.3.0.194"
+  sha256 "eff9e545c28886c58e75fe35cd5425fc1c7935893e8f9a2a1bcf733d69d88f65"
 
-  url "https://download.visualstudio.microsoft.com/download/pr/ca7c7580-dd29-42d8-a0b1-3223e61f1623/b38739f51587806a5751419435d6c4ad/visualstudioformacinstaller-#{version}.dmg"
-  name "Microsoft Visual Studio"
+  url "https://download.visualstudio.microsoft.com/download/pr/7e6cf3c8-90ed-4f51-a65f-b86c47f2a5ea/39d64a202187f0d6bd25046559e3cef2/visualstudioformacpreviewinstaller-#{version}.dmg"
+  name "Microsoft Visual Studio for Mac Preview"
   desc "Integrated development environment"
-  homepage "https://visualstudio.microsoft.com/vs/mac/"
+  homepage "https://visualstudio.microsoft.com/vs/mac/preview/"
 
   livecheck do
-    url "https://aka.ms/vs/mac/download"
+    url "https://aka.ms/installer/preview"
     strategy :header_match do |headers|
-      headers["location"][%r{/visualstudioformacinstaller-(\d+(?:\.\d+)+).dmg}i, 1]
+      headers["location"][%r{/visualstudioformacpreviewinstaller-(\d+(?:\.\d+)+).dmg}i, 1]
     end
   end
 
@@ -18,10 +18,11 @@ cask "visual-studio-mac-preview" do
   depends_on macos: ">= :catalina"
   depends_on cask: "homebrew/cask-versions/mono-mdk-for-visual-studio"
 
-  installer manual: "Install Visual Studio for Mac.app"
+  installer manual: "Install Visual Studio for Mac Preview.app"
 
   uninstall delete: "/Applications/Visual Studio.app"
 
+=begin
   zap trash: [
     "/Applications/Xamarin Profiler.app",
     "/Applications/Xamarin Workbooks.app",
@@ -41,4 +42,5 @@ cask "visual-studio-mac-preview" do
     "~/Library/VisualStudio",
     "~/Library/Xamarin.Mac",
   ]
+=end
 end
