@@ -1,7 +1,7 @@
 cask "rpcs3-emu" do
-  version "0.0.22-13600,2ba437b6dc0c68a6f2cc4a683012c3d25310839a"
-  sha256 "ef75ef4b6361e1885cbe25b987166867f31d40ac71fa2bcacff3a6740dd5b08b"
-
+  version "0.0.24-14153,2807be7080ab71d5c542a2bef7323f9b43f192e6"
+  sha256 "07b31cfe3d4c9d5fb5c17b151b5506206ce71839fe2ebc225adbc40695204f60"
+  
   url "https://github.com/RPCS3/rpcs3-binaries-mac/releases/download/build-#{version.csv.second}/rpcs3-v#{version.csv.first}-#{version.csv.second[0..7]}_macos.dmg"
   name "RPCS3"
   desc "The Open-source PlayStation 3 Emulator"
