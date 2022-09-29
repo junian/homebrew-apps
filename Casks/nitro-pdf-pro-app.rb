@@ -1,9 +1,8 @@
 cask "nitro-pdf-pro-app" do
   version "13.3.0"
-  sha256 "c1f12be884e56cc2407faad1c0213a868a5d6a39aff11ac4af09ea1296d6c663"
-
-  url "https://downloads.gonitro.com/macos/Nitro%20PDF%20Pro%20Retail_#{version}.dmg",
-      verified: "downloads.gonitro.com/macos/"
+  sha256 "1ba5d7212b5e4fb6f19a5c97031121fddbcddadc2f42a10bb1d3b2fb1ecd4d4e"
+  
+  url "http://192.168.1.4:8733/Apps/Nitro.PDF.Pro.v#{version}.dmg"
   name "Nitro PDF Pro"
   desc "PDF editing software"
   homepage "https://pdfpen.com/"
