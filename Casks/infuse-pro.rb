@@ -1,6 +1,6 @@
 cask "infuse-pro" do
-  version "7.3.10"
-  sha256 "49fddde455b7366e81205ceac03c1321cfa5364542570b7df14c08b138417719"
+  version "7.4.5"
+  sha256 "74ce46f919c5952cd075d23d49438f5fbc8b02f1f9bb90476eb1dc6138b506e1"
 
   url "http://192.168.1.4:8733/Apps/Infuse.v#{version}.dmg"
   name "Infuse 7"
