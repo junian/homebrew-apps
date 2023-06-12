@@ -1,6 +1,6 @@
 cask "webcamplus-app" do
-  version "1.2.0"
-  sha256 "50621515ff773b88930ffb2cfcd1511cf48cbf151672bd05bda37729b65ea509"
+  version "2.0.0"
+  sha256 "ecd626ee0c0531254bfa546564b989ee1f96bc983224af2d7c03d5c6d632a0f3"
 
   url "https://github.com/WebcamPlus/WebcamPlus.github.io/releases/download/#{version}/WebcamPlus.Installer.#{version}.pkg"
   name "Webcam Plus"
