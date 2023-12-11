@@ -1,4 +1,4 @@
-cask "screenflow" do
+cask "screenflow-app" do
   version "10.0.10"
   sha256 "f7bf8636dfb9c42375d0c5b603e735fe4cedc9f0216d21e4825de0d4a497f672"
 
