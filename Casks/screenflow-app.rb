@@ -1,6 +1,6 @@
 cask "screenflow-app" do
   version "10.0.10"
-  sha256 "f7bf8636dfb9c42375d0c5b603e735fe4cedc9f0216d21e4825de0d4a497f672"
+  sha256 "04e468d54c2bc749b0a3b8678fe0d56ff0e7f26b72c94c43930dc1582b81529d"
 
   url "http://192.168.1.4:8733/Apps/ScreenFlow.v#{version}.dmg"
   name "ScreenFlow"
