@@ -3,10 +3,13 @@ cask "parallels-desktop-15" do
   sha256 "94df473f7bddfd1371f78fd32d7f7bb16e5c9a1d1b39751bed77c992b6d3013e"
 
   url "https://download.parallels.com/desktop/v#{version.major}/#{version}/ParallelsDesktop-#{version}.dmg"
-  appcast "https://kb.parallels.com/eu/124724"
   name "Parallels Desktop"
   homepage "https://www.parallels.com/products/desktop/"
 
+  livecheck do
+    url "https://kb.parallels.com/eu/124724"
+  end
+  
   auto_updates true
   depends_on macos: ">= :sierra"
   # This .dmg cannot be extracted normally

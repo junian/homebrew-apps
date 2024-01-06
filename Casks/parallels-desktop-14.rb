@@ -3,9 +3,12 @@ cask "parallels-desktop-14" do
   sha256 "34c9c345642fa30f9d240a76062c5672e399349d5e5984db9c208d22e099f8b9"
 
   url "https://download.parallels.com/desktop/v#{version.major}/#{version}/ParallelsDesktop-#{version}.dmg"
-  appcast "https://kb.parallels.com/eu/124521"
   name "Parallels Desktop"
   homepage "https://www.parallels.com/products/desktop/"
+
+  livecheck do
+    url "https://kb.parallels.com/eu/124521"
+  end
 
   auto_updates true
   # This .dmg cannot be extracted normally
