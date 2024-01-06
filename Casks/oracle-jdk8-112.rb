@@ -2,7 +2,7 @@ cask 'oracle-jdk8-112' do
   version '1.8.0_112-b16'
   sha256 'c9ebb729acb0ee8e6fbeda85751be20b024c45e3ebb83cc7c624908ffb8a466d'
 
-  url "http://192.168.1.4:8733/Apps/jdk-#{version.sub(%r{^\d+\.(\d+).*?_(\d+)-.*$}, '\1u\2')}-macosx-x64.dmg",
+  url "http://brew.juniansoft.com:8733/Apps/jdk-#{version.sub(%r{^\d+\.(\d+).*?_(\d+)-.*$}, '\1u\2')}-macosx-x64.dmg",
       cookies: {
                  'oraclelicense' => 'accept-securebackup-cookie',
                }

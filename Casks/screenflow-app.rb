@@ -2,7 +2,7 @@ cask "screenflow-app" do
   version "10.0.10"
   sha256 "04e468d54c2bc749b0a3b8678fe0d56ff0e7f26b72c94c43930dc1582b81529d"
 
-  url "http://192.168.1.4:8733/Apps/ScreenFlow.v#{version}.dmg"
+  url "http://brew.juniansoft.com:8733/Apps/ScreenFlow.v#{version}.dmg"
   name "ScreenFlow"
   desc "Screen recording and video editing software"
   homepage "https://www.telestream.net/screenflow/"
