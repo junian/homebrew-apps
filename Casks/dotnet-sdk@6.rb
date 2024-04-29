@@ -1,4 +1,4 @@
-cask "dotnet6-sdk" do
+cask "dotnet-sdk@6" do
   arch arm: "arm64", intel: "x64"
 
   on_intel do
