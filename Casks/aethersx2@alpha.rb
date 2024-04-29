@@ -1,4 +1,4 @@
-cask "aethersx2-alpha" do
+cask "aethersx2@alpha" do
   version "1860"
   sha256 "37728c0ac7b9e14722a4bdb1e2df2c54353a9f8379243faeddaacacbae29e40b"
 
