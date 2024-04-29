@@ -1,4 +1,4 @@
-cask "parallels-desktop-19" do
+cask "parallels-desktop@19" do
   version "19.0.0-54570"
   sha256 "cbb502f84e62d9cc64389f67548e9a400149e644d7bfdb9a66830ee3f4824ba9"
 
