@@ -1,4 +1,4 @@
-cask "tableau@2022.1" do
+cask "tableau-2022-1" do
   version "2022.1.2"
   sha256 "7a2c155bdb367265b42b797a83b18b66032fad67e2901f2751e26ffbf43eb7bf"
 
