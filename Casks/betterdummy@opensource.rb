@@ -1,4 +1,4 @@
-cask "betterdummy-opensource" do
+cask "betterdummy@opensource" do
   version "1.0.13"
   sha256 "23a46ea3607045a74f9d1ebae5b8034964bb2d217a56d2f0dd8a298e03c4a7ed"
 
