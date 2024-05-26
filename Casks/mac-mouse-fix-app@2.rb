@@ -1,4 +1,4 @@
-cask "mac-mouse-fix@2" do
+cask "mac-mouse-fix-app@2" do
   version "2.2.4"
   sha256 "3d3bdbadfc612b25bd8d306d5f4014433036ed94f6f8e15d025b1de1eacecaf2"
 
@@ -6,14 +6,15 @@ cask "mac-mouse-fix@2" do
       verified: "github.com/noah-nuebling/mac-mouse-fix/"
   name "Mac Mouse Fix"
   desc "Mouse utility to add gesture functions and smooth scrolling to 3rd party mice"
-  homepage "https://noah-nuebling.github.io/mac-mouse-fix-website/"
+  homepage "https://macmousefix.com/"
 
   livecheck do
     url :url
-    strategy :github_latest
+    regex(/^v?(2(?:\.\d+)+)$/i)
   end
 
-  auto_updates true
+  conflicts_with cask: "mac-mouse-fix"
+  depends_on macos: ">= :high_sierra"
 
   app "Mac Mouse Fix.app"
 
