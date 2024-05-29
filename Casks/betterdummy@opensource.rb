@@ -2,10 +2,10 @@ cask "betterdummy@opensource" do
   version "1.0.13"
   sha256 "23a46ea3607045a74f9d1ebae5b8034964bb2d217a56d2f0dd8a298e03c4a7ed"
 
-  url "https://github.com/waydabber/BetterDummy/releases/download/v#{version}/BetterDummy-v#{version}.zip"
+  url "https://github.com/waydabber/BetterDisplay/releases/download/v#{version}/BetterDummy-v#{version}.zip"
   name "betterdummy"
   desc "Dummy Display for Apple Silicon Macs to achieve custom resolutions"
-  homepage "https://github.com/waydabber/BetterDummy"
+  homepage "https://github.com/waydabber/BetterDisplay"
 
   livecheck do
     url :url
