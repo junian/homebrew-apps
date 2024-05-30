@@ -1,4 +1,4 @@
-cask "microsoft-office-ltsc-2021-vl-serializer" do
+cask "microsoft-office-ltsc-vl-serializer@2021" do
   arch arm: "arm64", intel: "x64"
   
   version "2021"
